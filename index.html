@@ -72,8 +72,8 @@
     <!-- ABOUT: a short bio. Edit the text to make it yours! -->
     <section id="about" class="section about">
       <h2>About Us</h2>
-      <p>Gold Creek Dog Walkers is run by two friends, <strong>Abir</strong>
-        and <strong>Vivaan</strong>. We've been walking dogs in our
+      <p>Gold Creek Dog Walkers is run by two friends, <strong>Vivaan</strong>
+        and <strong>Abir</strong>. We've been walking dogs in our
         neighborhood for a while now. We love getting to know every pup,
         and we treat each dog like our own.</p>
       <p>We know the trails and sidewalks around Gold Creek really well, so
@@ -84,9 +84,13 @@
     <section id="contact" class="section contact">
       <h2>Ready to book?</h2>
       <p>Just send us a text and we'll get back to you soon!</p>
-      <!-- href="sms:..." opens the text-message app on a phone.
-           Replace the number in BOTH places with your real number. -->
-      <a href="sms:+19255684117" class="button">💬 Text (925) 568-4117</a>
+      <!-- The numbers are plain text (not links), so tapping them does nothing.
+           .phone-row puts the main number and the backup number side by side. -->
+      <div class="phone-row">
+        <p class="phone">Text (925) 568-4117</p>
+        <p class="phone-alt">If that number doesn't work, try this one:</p>
+        <p class="phone">(925) 545-4158</p>
+      </div>
     </section>
   </main>
 

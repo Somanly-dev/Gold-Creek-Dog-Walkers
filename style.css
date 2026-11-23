@@ -106,6 +106,31 @@ body {
   background: #ff7043;             /* slightly darker on hover */
 }
 
+/* PHONE NUMBERS: plain text in a pill shape (not clickable).
+   flex puts the two numbers side by side; flex-wrap stacks them on small screens. */
+.phone-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  margin-top: 16px;
+}
+
+.phone {
+  margin: 0;
+  padding: 12px 28px;
+  background: var(--coral);
+  color: white;
+  font-weight: bold;
+  border-radius: 999px;
+}
+
+.phone-alt {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
 /* SECTIONS: shared style for each content area. */
 .section {
   max-width: 800px;                /* keep text from stretching too wide */

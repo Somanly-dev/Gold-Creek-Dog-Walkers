@@ -19,7 +19,7 @@ Small and medium dogs are a great fit, and big dogs are fine if they're calm and
 
 ## Book a walk
 
-Text us at **(925) 568-4117**.
+Text us at **(925) 568-4117**. If that number doesn't work, try **(925) 545-4158**.
 
 ---
 
